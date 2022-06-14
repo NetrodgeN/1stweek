@@ -1,0 +1,38 @@
+@import 'index.css';
+.wrapper {
+  max-width: 1920px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: rgba(224, 255, 255, 0.66);
+}
+
+.search__input {
+  height: 32px;
+  min-width: 300px;
+  border: 1px solid #c7cddb;
+  border-radius: 15px;
+  font-family: inherit;
+  font-size: 1.3rem;
+  color: #6c758f;
+  padding: 0 12px;
+  outline-color: #15a4fa;
+}
+
+.search__loupe {
+  height: 20px;
+  fill: red;
+}
+
+.header__wrapper {
+  max-width: 1920px;
+  height: 50px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  background: lightcyan;
+}
+
+/*# sourceMappingURL=style.css.map */
