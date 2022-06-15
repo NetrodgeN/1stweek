@@ -9,6 +9,10 @@
   background: rgba(224, 255, 255, 0.66);
 }
 
+
+.search-bar{
+  position: relative;
+}
 .search__input{
   height: 32px;
   min-width: 300px;
@@ -17,12 +21,14 @@
   font-family: inherit;
   font-size: 1.3rem;
   color: #6c758f;
-  padding: 0 12px;
+  padding-left: 34px;
   outline-color:  #15a4fa;
 }
 
 .search__loupe{
+  position: absolute;
   height: 20px;
-  fill: red;
-
+  fill: #0f4c72;
+  left: 10px;
+  top:8px
 }

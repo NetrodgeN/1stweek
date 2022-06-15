@@ -16,7 +16,7 @@ function App() {
         </div>
       </header>
       <Routes>
-        <Route path="/" element={<HomePage />} />
+        <Route path="" element={<HomePage />} />
         <Route path="/about" element={<AboutUs />} />
         <Route path="/404" element={<Error />} />
         <Route path="*" element={<Error />} />
