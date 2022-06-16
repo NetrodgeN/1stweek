@@ -1,9 +1,9 @@
 import React from 'react';
 import { Routes, Route, Link } from 'react-router-dom';
-import './style.css';
-import AboutUs from './pages/AboutUs';
-import Error from './pages/Error';
-import HomePage from './pages/HomePage';
+import '../../style.css';
+import AboutUs from '../Pages/AboutUs/AboutUs';
+import Error from '../Pages/404/Error';
+import HomePage from '../Pages/HomePage/HomePage';
 
 function App() {
   return (

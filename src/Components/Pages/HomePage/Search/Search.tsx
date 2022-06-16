@@ -2,16 +2,11 @@ import React, { ChangeEvent, Component, FormEvent } from 'react';
 
 class Search extends Component {
   state = {
-    searchValue: localStorage.getItem('search')||'',
+    searchValue: localStorage.getItem('search') || '',
   };
 
-  // componentDidMount() {
-  //   const searchValue = localStorage.getItem('search') || '';
-  //   this.setState({ searchValue });
-  // }
-
   componentWillUnmount() {
-    const {searchValue} =this.state;
+    const { searchValue } = this.state;
     localStorage.setItem('search', searchValue);
   }
 
@@ -28,6 +23,7 @@ class Search extends Component {
     return (
       <form className="search-bar" onSubmit={(event) => this.onFormSubmit(event)}>
         <input
+          role="searchbox"
           className="search__input"
           type="search"
           name="search"

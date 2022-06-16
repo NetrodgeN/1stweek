@@ -1,5 +1,5 @@
 import React from 'react';
-import card from '../card.png';
+import card from '../../../../card.png';
 interface IShopArr {
   id: number;
   title: string;

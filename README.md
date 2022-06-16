@@ -1,5 +1,8 @@
-#Это учебный проект
+## Это учебный проект
+\
+TypeScript\
 React route 6\
 Scss\
 Prettier\
-Буду дополнять по мере развития
+React Testing Library\
+Буду дополнять по мере развития.
