@@ -21,7 +21,7 @@ const Cards = () => {
     <div className="cards__wrapper">
       {shopArr.map((item) => (
         <div key={item.id} className="card">
-          <img src={card} alt="#" height="150px" />
+          <img src={card} alt={item.title} height="150px" />
           <span>{item.title}</span>
           <span>{item.likes} Лайков</span>
           <span>Цена: {item.cost}</span>

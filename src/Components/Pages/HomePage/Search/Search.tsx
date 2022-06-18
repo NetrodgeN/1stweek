@@ -23,7 +23,6 @@ class Search extends Component {
     return (
       <form className="search-bar" onSubmit={(event) => this.onFormSubmit(event)}>
         <input
-          role="searchbox"
           className="search__input"
           type="search"
           name="search"

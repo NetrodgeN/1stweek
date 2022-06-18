@@ -25,4 +25,9 @@ describe('local storage test', () => {
       setItem: jest.fn(() => null),
     },
   });
+
+  test('get item test', () => {
+    render(<Search />);
+    expect(window.localStorage.getItem).toHaveBeenCalledTimes(1);
+  });
 });

@@ -1,19 +1,18 @@
-.wrapper{
+.wrapper {
   max-width: 1920px;
-  //height: 50px;
   margin: 0 auto;
   display: flex;
   flex-direction: column;
-  //justify-content: space-evenly;
   align-items: center;
   background: rgba(224, 255, 255, 0.66);
 }
 
 
-.search-bar{
+.search-bar {
   position: relative;
 }
-.search__input{
+
+.search__input {
   height: 32px;
   min-width: 300px;
   border: 1px solid #c7cddb;
@@ -22,13 +21,13 @@
   font-size: 1.3rem;
   color: #6c758f;
   padding-left: 34px;
-  outline-color:  #15a4fa;
+  outline-color: #15a4fa;
 }
 
-.search__loupe{
+.search__loupe {
   position: absolute;
   height: 20px;
   fill: #0f4c72;
   left: 10px;
-  top:8px
+  top: 8px
 }
